@@ -8,4 +8,4 @@ Adds a new mineral, **Four Leaf Crystal**, inspired by the luck of four-leaf clo
 ## Four-Leaf Crystal
 1.Use:Four-leaf crystals can be used to make tools and armor. Tools and armor made from four-leaf crystals have quality between iron and diamond.
 ## Tips
-**For more content, see the changelog**
+**For more content, see modrinth the changelog**
