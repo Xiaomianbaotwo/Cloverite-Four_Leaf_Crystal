@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FourLeafCrystalArmor.body"
+      },
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:FourLeafCrystalArmor.body"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystal"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalUpgradeSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalArmor.body"
+    },
+    "name": "diamond_four_leaf_crystal_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      },
+      {
+        "value": "CUSTOM:FourLeafCrystalArmor.legs"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:FourLeafCrystalArmor.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystal"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalUpgradeSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalArmor.legs"
+    },
+    "name": "diamond_four_leaf_crystal_leggings_recipe",
+    "namespace": "mod"
+  }
+}

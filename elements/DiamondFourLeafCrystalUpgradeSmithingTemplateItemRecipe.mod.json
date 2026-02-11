@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      },
+      {
+        "value": "CUSTOM:Clover"
+      },
+      {
+        "value": "CUSTOM:FourLeafCrystal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      },
+      {
+        "value": "CUSTOM:FourLeafCrystal"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:FourLeafCrystal"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:Clover"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalUpgradeSmithingTemplate"
+    },
+    "name": "diamond_four_leaf_crystal_upgrade_smithing_template_item_recipe",
+    "namespace": "mod"
+  }
+}

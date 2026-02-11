@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystalUpgradeSmithingTemplate"
+      },
+      {
+        "value": "CUSTOM:FourLeafCrystalShovel"
+      },
+      {
+        "value": "CUSTOM:DiamondFourLeafCrystal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:FourLeafCrystalShovel"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystal"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalUpgradeSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:DiamondFourLeafCrystalShovel"
+    },
+    "name": "diamond_four_leaf_crystal_shovel_recipe",
+    "namespace": "mod"
+  }
+}
