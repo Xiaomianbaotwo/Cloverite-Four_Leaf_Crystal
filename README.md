@@ -1,5 +1,6 @@
-# Cloverite-Four_Leaf_Crystal（是我机翻成的）
-## Basic content
+# 作者是中国人，英语略懂但是英语微软机翻
+## Cloverite-Four_Leaf_Crystal
+### Basic content
 Adds a new mineral, **Four Leaf Crystal**, inspired by the luck of four-leaf clovers. This unique mineral generates underground in areas where clovers grow! Craft a full set of tools and armor from Four Leaf Crystal, offering a balanced mid-tier option that is stronger than iron but not as powerful as diamond. Explore the world to find this lucky mineral, upgrade your gear, and embrace the fortune it brings to your adventures!
 ## Clover
 1.Generate:Clovers will generate in Sunflower Plains, Blooming Forests, Meadows, and Plains biomes.
