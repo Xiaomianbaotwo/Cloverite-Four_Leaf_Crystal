@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "cloverite:diamond_four_leaf_crystal",
+    "count": 2
+  }
+}

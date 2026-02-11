@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cloverite:diamond_four_leaf_crystal_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "cloverite:four_leaf_crystal_armor_helmet"
+  },
+  "addition": {
+    "item": "cloverite:diamond_four_leaf_crystal"
+  },
+  "result": {
+    "id": "cloverite:diamond_four_leaf_crystal_armor_helmet"
+  }
+}

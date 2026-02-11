@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "cloverite:diamond_four_leaf_crystal"
+    },
+    "title": {
+      "translate": "advancements.ad_diamond_four_leaf_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.ad_diamond_four_leaf_crystal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ad_diamond_four_leaf_crystal_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cloverite:diamond_four_leaf_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "cloverite:ad_four_leaf_crystal"
+}

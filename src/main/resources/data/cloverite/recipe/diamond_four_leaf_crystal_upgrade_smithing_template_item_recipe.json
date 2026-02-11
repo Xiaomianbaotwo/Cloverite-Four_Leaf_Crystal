@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "cloverite:diamond_four_leaf_crystal"
+    },
+    "b": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    "d": {
+      "item": "minecraft:stone"
+    },
+    "e": {
+      "item": "minecraft:diamond"
+    },
+    "f": {
+      "item": "cloverite:clover"
+    }
+  },
+  "result": {
+    "id": "cloverite:diamond_four_leaf_crystal_upgrade_smithing_template",
+    "count": 1
+  }
+}

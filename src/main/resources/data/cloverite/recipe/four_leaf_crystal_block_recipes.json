@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    },
+    {
+      "item": "cloverite:four_leaf_crystal"
+    }
+  ],
+  "result": {
+    "id": "cloverite:four_leaf_crystal_chip",
+    "count": 1
+  }
+}

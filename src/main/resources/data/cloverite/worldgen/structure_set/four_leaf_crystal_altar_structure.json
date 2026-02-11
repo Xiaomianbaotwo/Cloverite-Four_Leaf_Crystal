@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cloverite:four_leaf_crystal_altar_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 31,
+    "salt": 311491724
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "cloverite:diamond_four_leaf_crystal_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.ad_diamond_four_leaf_crystal_upgrade_smithing_template.title"
+    },
+    "description": {
+      "translate": "advancements.ad_diamond_four_leaf_crystal_upgrade_smithing_template.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ad_diamond_four_leaf_crystal_upgrade_smithing_template_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cloverite:diamond_four_leaf_crystal_upgrade_smithing_template"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "cloverite:chests/bastion_four_leaf_crystal"
+    ]
+  },
+  "parent": "cloverite:ad_diamond_four_leaf_crystal"
+}

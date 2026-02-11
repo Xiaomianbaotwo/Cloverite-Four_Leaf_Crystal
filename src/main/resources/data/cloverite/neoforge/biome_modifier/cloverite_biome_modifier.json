@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mushroom_fields",
+    "flower_forest",
+    "sunflower_plains",
+    "meadow",
+    "plains"
+  ],
+  "features": "cloverite:cloverite",
+  "step": "underground_ores"
+}
