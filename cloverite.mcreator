@@ -1,0 +1,860 @@
+{
+  "mod_elements": [
+    {
+      "name": "FourLeafCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalItem.java",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Cloverite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloverite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/block/cloverite.json",
+          "src/main/resources/assets/cloverite/models/item/cloverite.json",
+          "src/main/resources/assets/cloverite/blockstates/cloverite.json",
+          "src/main/resources/data/cloverite/loot_table/blocks/cloverite.json",
+          "src/main/java/net/mcreator/cloverite/block/CloveriteBlock.java",
+          "src/main/resources/data/cloverite/worldgen/configured_feature/cloverite.json",
+          "src/main/resources/data/cloverite/neoforge/biome_modifier/cloverite_biome_modifier.json",
+          "src/main/resources/data/cloverite/worldgen/placed_feature/cloverite.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalChip",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/loot_table/blocks/four_leaf_crystal_chip.json",
+          "src/main/resources/assets/cloverite/models/block/four_leaf_crystal_chip.json",
+          "src/main/java/net/mcreator/cloverite/block/FourLeafCrystalChipBlock.java",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_chip.json",
+          "src/main/resources/assets/cloverite/blockstates/four_leaf_crystal_chip.json"
+        ]
+      }
+    },
+    {
+      "name": "Cloverite2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloverite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/cloverite_2.json",
+          "src/main/resources/data/cloverite/worldgen/placed_feature/cloverite_2.json",
+          "src/main/resources/data/cloverite/neoforge/biome_modifier/cloverite_2_biome_modifier.json",
+          "src/main/resources/data/cloverite/worldgen/configured_feature/cloverite_2.json",
+          "src/main/java/net/mcreator/cloverite/block/Cloverite2Block.java",
+          "src/main/resources/data/cloverite/loot_table/blocks/cloverite_2.json",
+          "src/main/resources/assets/cloverite/blockstates/cloverite_2.json",
+          "src/main/resources/assets/cloverite/models/block/cloverite_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Clover",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cloverite/block/CloverBlock.java",
+          "src/main/resources/data/cloverite/loot_table/blocks/clover.json",
+          "src/main/resources/assets/cloverite/blockstates/clover.json",
+          "src/main/resources/data/cloverite/worldgen/configured_feature/clover.json",
+          "src/main/resources/assets/cloverite/models/item/clover.json",
+          "src/main/resources/data/cloverite/worldgen/placed_feature/clover.json",
+          "src/main/resources/data/cloverite/neoforge/biome_modifier/clover_biome_modifier.json",
+          "src/main/resources/assets/cloverite/models/block/clover.json"
+        ]
+      }
+    },
+    {
+      "name": "AdFourLeafCrystal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_four_leaf_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_four_leaf_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "AdFourleafClover",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_fourleaf_clover",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_fourleaf_clover.json"
+        ]
+      }
+    },
+    {
+      "name": "AdLuckyFourLeafClover",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_lucky_four_leaf_clover",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_lucky_four_leaf_clover.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalBlockRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_block_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_block_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_block_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalSwordItem.java",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalSwordRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_sword_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_sword_recipes.json",
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_sword_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalPickaxeItem.java",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalPickaxeRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_pickaxe_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_pickaxe_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_pickaxe_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_axe.json",
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalAxeRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_axe_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_axe_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_axe_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalAxeRecipes2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_axe_recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_axe_recipes_2.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_axe_recipes_2.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_shovel.json",
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalShovelRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_shovel_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_shovel_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_shovel_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_hoe.json",
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalHoeRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_hoe_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_hoe_recipes.json",
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_hoe_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalHoeRecipes2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_hoe_recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_hoe_recipes_2.json",
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_hoe_recipes_2.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_armor_boots.json",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_armor_chestplate.json",
+          "src/main/java/net/mcreator/cloverite/item/FourLeafCrystalArmorItem.java",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_armor_helmet.json",
+          "src/main/resources/assets/cloverite/models/item/four_leaf_crystal_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalHelmetRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_helmet_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_helmet_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_helmet_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalLeggingsRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_leggings_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_leggings_recipes.json",
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_leggings_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalBootsRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_boots_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_boots_recipes.json",
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_boots_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalChestplateRecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_chestplate_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/four_leaf_crystal_chestplate_recipes.json",
+          "src/main/resources/data/cloverite/advancement/recipes/four_leaf_crystal_chestplate_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "AdFourLeafCrystalArmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_four_leaf_crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_four_leaf_crystal_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_recipe.json",
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_upgrade_smithing_template.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalUpgradeSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CreateTabCloverite",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_tab_cloverite",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalUpgradeSmithingTemplateItemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_upgrade_smithing_template_item_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_upgrade_smithing_template_item_recipe.json",
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_upgrade_smithing_template_item_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_armor_helmet.json",
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_armor_boots.json",
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_armor_leggings.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalArmorItem.java",
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_helmet_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_chestplate_recipe.json",
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_leggings_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_boots_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZlpbDiamondFourLeafCrystalUpgradeSmithingTemplate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zlpb_diamond_four_leaf_crystal_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/loot_table/chests/bastion_four_leaf_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_sword.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_sword_recipe.json",
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_pickaxe.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_pickaxe_recipe.json",
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_axe.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_axe_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalShovelItem.java",
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_shovel_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cloverite/models/item/diamond_four_leaf_crystal_hoe.json",
+          "src/main/java/net/mcreator/cloverite/item/DiamondFourLeafCrystalHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondFourLeafCrystalHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_four_leaf_crystal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/recipes/diamond_four_leaf_crystal_hoe_recipe.json",
+          "src/main/resources/data/cloverite/recipe/diamond_four_leaf_crystal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdDiamondFourLeafCrystal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_diamond_four_leaf_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_diamond_four_leaf_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "AdDiamondFourLeafCrystalProtection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_diamond_four_leaf_crystal_protection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_diamond_four_leaf_crystal_protection.json"
+        ]
+      }
+    },
+    {
+      "name": "AdDiamondFourLeafCrystalUpgradeSmithingTemplate",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_diamond_four_leaf_crystal_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/advancement/ad_diamond_four_leaf_crystal_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "FourLeafCrystalAltarStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_leaf_crystal_altar_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cloverite/worldgen/structure_set/four_leaf_crystal_altar_structure.json",
+          "src/main/resources/data/cloverite/worldgen/structure/four_leaf_crystal_altar_structure.json",
+          "src/main/resources/data/cloverite/worldgen/template_pool/four_leaf_crystal_altar_structure.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Cloverite2",
+      "~CUSTOM:FourLeafCrystalChip",
+      "~CUSTOM:Cloverite"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Cloverite2",
+      "~CUSTOM:FourLeafCrystalChip",
+      "~CUSTOM:Cloverite"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:FourLeafCrystal"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DiamondFourLeafCrystalSword",
+      "~CUSTOM:FourLeafCrystalSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DiamondFourLeafCrystalPickaxe",
+      "~CUSTOM:FourLeafCrystalPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:DiamondFourLeafCrystalAxe",
+      "~CUSTOM:FourLeafCrystalAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:DiamondFourLeafCrystalShovel",
+      "~CUSTOM:FourLeafCrystalShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:DiamondFourLeafCrystalHoe",
+      "~CUSTOM:FourLeafCrystalHoe"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:DiamondFourLeafCrystalArmor.helmet",
+      "~CUSTOM:FourLeafCrystalArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:DiamondFourLeafCrystalArmor.body",
+      "~CUSTOM:FourLeafCrystalArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:DiamondFourLeafCrystalArmor.legs",
+      "~CUSTOM:FourLeafCrystalArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:DiamondFourLeafCrystalArmor.boots",
+      "~CUSTOM:FourLeafCrystalArmor.boots"
+    ]
+  },
+  "tab_element_order": {
+    "DECORATIONS": [
+      "Clover",
+      "Cloverite2",
+      "Cloverite"
+    ],
+    "CUSTOM:CreateTabCloverite": [
+      "FourLeafCrystal",
+      "DiamondFourLeafCrystal",
+      "DiamondFourLeafCrystalUpgradeSmithingTemplate",
+      "FourLeafCrystalArmor",
+      "DiamondFourLeafCrystalArmor",
+      "FourLeafCrystalSword",
+      "DiamondFourLeafCrystalSword",
+      "FourLeafCrystalPickaxe",
+      "DiamondFourLeafCrystalPickaxe",
+      "FourLeafCrystalAxe",
+      "DiamondFourLeafCrystalAxe",
+      "FourLeafCrystalShovel",
+      "DiamondFourLeafCrystalShovel",
+      "FourLeafCrystalHoe",
+      "DiamondFourLeafCrystalHoe",
+      "Clover",
+      "Cloverite2",
+      "Cloverite",
+      "FourLeafCrystalChip"
+    ],
+    "COMBAT": [
+      "FourLeafCrystalSword",
+      "DiamondFourLeafCrystalSword",
+      "FourLeafCrystalArmor",
+      "DiamondFourLeafCrystalArmor"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.cloverite.four_leaf_crystal": "Four Leaf Crystal",
+      "block.cloverite.cloverite": "Deepslate Four Leaf Crystal Ore",
+      "block.cloverite.four_leaf_crystal_chip": "Four Leaf Crystal Block",
+      "block.cloverite.cloverite_2": "Four Leaf Crystal Ore",
+      "block.cloverite.clover": "Clover",
+      "advancements.ad_four_leaf_crystal.descr": "You found a mineral that looks like a four-leaf clover.",
+      "advancements.ad_four_leaf_crystal.title": "Four Leaf Crystal！",
+      "advancements.ad_fourleaf_clover.title": "wow a four-leaf clover",
+      "advancements.ad_fourleaf_clover.descr": "Get a four-leaf clover.",
+      "advancements.ad_lucky_four_leaf_clover.title": "Lucky Four Leaf Clover",
+      "advancements.ad_lucky_four_leaf_clover.descr": "Clover symbolizes luck, and wherever there is clover, there will be four-leaf crystal ore underground.",
+      "item.cloverite.four_leaf_crystal_sword": "Four Leaf Crystal Sword",
+      "item.cloverite.four_leaf_crystal_pickaxe": "Four Leaf Crystal Pickaxe",
+      "item.cloverite.four_leaf_crystal_axe": "Four Leaf Crystal Axe",
+      "item.cloverite.four_leaf_crystal_shovel": "Four Leaf Crystal Shovel",
+      "item.cloverite.four_leaf_crystal_hoe": "Four Leaf Crystal Hoe",
+      "item.cloverite.four_leaf_crystal_armor_boots": "Four Leaf Crystal Boots",
+      "item.cloverite.four_leaf_crystal_armor_helmet": "Four Leaf Crystal Helmet",
+      "item.cloverite.four_leaf_crystal_armor_leggings": "Four Leaf Crystal Leggings",
+      "item.cloverite.four_leaf_crystal_armor_chestplate": "Four Leaf Crystal Chestplate",
+      "advancements.ad_four_leaf_crystal_armor.title": "Four Leaf Crystal Armor",
+      "advancements.ad_four_leaf_crystal_armor.descr": "Four Leaf Crystal Armor can save people.",
+      "item.cloverite.diamond_four_leaf_crystal": "Diamond Four Leaf Crystal",
+      "item.cloverite.diamond_four_leaf_crystal_upgrade_smithing_template": "Diamond Four Leaf Crystal Upgrade Smithing Template",
+      "item_group.cloverite.create_tab_cloverite": "Create Tab Cloverite",
+      "item.cloverite.diamond_four_leaf_crystal_armor_helmet": "Diamond Four Leaf Crystal helmet",
+      "item.cloverite.diamond_four_leaf_crystal_armor_chestplate": "Diamond Four Leaf Crystal Chestplate",
+      "item.cloverite.diamond_four_leaf_crystal_armor_leggings": "Diamond Four Leaf Crystal Leggings",
+      "item.cloverite.diamond_four_leaf_crystal_armor_boots": "Diamond Four Leaf Crystal Boots",
+      "item.cloverite.diamond_four_leaf_crystal_sword": "Diamond Four Leaf Crystal Sword",
+      "item.cloverite.diamond_four_leaf_crystal_pickaxe": "Diamond Four Leaf Crystal Pickaxe",
+      "item.cloverite.diamond_four_leaf_crystal_axe": "Diamond Four Leaf Crystal Axe",
+      "item.cloverite.diamond_four_leaf_crystal_shovel": "Diamond Four Leaf Crystal Shovel",
+      "item.cloverite.diamond_four_leaf_crystal_hoe": "Diamond Four Leaf Crystal Hoe",
+      "advancements.ad_diamond_four_leaf_crystal.title": "Diamond Four Leaf Crystal！",
+      "advancements.ad_diamond_four_leaf_crystal.descr": "Obtain Diamond Four-Leaf Crystal",
+      "advancements.ad_diamond_four_leaf_crystal_protection.title": "Diamond Clover Crystal Armor",
+      "advancements.ad_diamond_four_leaf_crystal_protection.descr": "Diamond Clover Crystal Armor can save lives.Equivalent to lower-grade alloy.",
+      "advancements.ad_diamond_four_leaf_crystal_upgrade_smithing_template.descr": "Get Diamond Four Leaf Crystal Upgrade Smithing Template!",
+      "advancements.ad_diamond_four_leaf_crystal_upgrade_smithing_template.title": "Diamond Four Leaf Crystal Upgrade Smithing Template!"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/cloverite/init/CloveriteModBlocks.java",
+      "src/main/java/net/mcreator/cloverite/init/CloveriteModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/cloverite/CloveriteMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/cloverite/init/CloveriteModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cloverite",
+    "modName": "Four Leaf Crystal ",
+    "version": "2.2.0",
+    "author": "MCreator",
+    "websiteURL": "https://modrinth.com /mod/fourleafcrystal",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "four_leaf__crystal",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.cloverite"
+  },
+  "mcreatorVersion": 202500345720
+}
