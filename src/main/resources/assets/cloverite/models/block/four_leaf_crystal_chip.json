@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cloverite:block/fourl_eaf_crystal__block",
+    "up": "cloverite:block/fourl_eaf_crystal__block",
+    "north": "cloverite:block/fourl_eaf_crystal__block",
+    "east": "cloverite:block/fourl_eaf_crystal__block",
+    "south": "cloverite:block/fourl_eaf_crystal__block",
+    "west": "cloverite:block/fourl_eaf_crystal__block",
+    "particle": "cloverite:block/fourl_eaf_crystal__block"
+  },
+  "render_type": "solid"
+}

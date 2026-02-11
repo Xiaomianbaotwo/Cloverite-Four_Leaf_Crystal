@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cloverite:block/four_leaf_crystal__ore",
+    "up": "cloverite:block/four_leaf_crystal__ore",
+    "north": "cloverite:block/four_leaf_crystal__ore",
+    "east": "cloverite:block/four_leaf_crystal__ore",
+    "south": "cloverite:block/four_leaf_crystal__ore",
+    "west": "cloverite:block/four_leaf_crystal__ore",
+    "particle": "cloverite:block/four_leaf_crystal__ore"
+  },
+  "render_type": "solid"
+}

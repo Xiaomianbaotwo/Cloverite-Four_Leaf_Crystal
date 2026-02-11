@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cloverite:block/clover",
+    "particle": "cloverite:block/clover"
+  },
+  "render_type": "cutout"
+}

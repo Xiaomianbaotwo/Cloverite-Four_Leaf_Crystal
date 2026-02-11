@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cloverite:item/diamond_four_leaf_crystal_sword"
+  }
+}
